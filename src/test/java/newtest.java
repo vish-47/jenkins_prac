@@ -14,7 +14,7 @@ public class newtest {
         driver.manage().window().setSize(new Dimension(1440, 875));
         driver.findElement(By.name("q")).sendKeys("amazon");
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
-        driver.findElement(By.cssSelector(".eKjLze .LC20lb")).click();
+        driver.get("http://www.youtube.com");
         System.out.println(driver.getCurrentUrl());
 
 
